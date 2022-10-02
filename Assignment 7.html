@@ -7,7 +7,7 @@
     <title>Assignment 7 (with Bubba's Help)</title>
 </head>
 <body>
-<h1> Hi, Welcome to WVC </h1> 
+<h1 id="top"> Hi, Welcome to WVC </h1> 
 
 <p> Log in first to get the best use out of this site: </p>
 <br>
@@ -15,12 +15,12 @@
     <p>Username:  <!-- use the <input> tag as seen on page 153 to get it going, then be sure to use the "placeholder" attribute as seen on page 168-->  
         <input type="text" name="username" placeholder="Username" size="15" maxlength="30" />
      </p>
- <br>
     <p>Password:  <!-- use form validation as seen on page 165 -->
         <input type="password" name="password"  size="15" maxlength="30" required="required" /> 
     </p>
     <button> Submit</button>
 </form>
+<br>
     <!-- add a <button>  tag as seen on page 162 – but don’t use an <img> tag as seen on the same page though, instead keep it simple and write it out like this: <button> Submit</button>--> 
 
 <img src="images 1.2/wonderlane-6zlgM-GUd6I-unsplash.jpg" alt="Generic College Campus Image from Usplash" height="300" width="300">
@@ -33,17 +33,17 @@
 
 <p> We are the best at what we do! From the arts to the sciences, we've got you covered. Here you will find all the information you need: </p>
 
-<ul> Course list
+<ul> <li> Course list</li>
 
-    How to sign up for classes
+    <li> How to sign up for classes</li>
     
-    Resource centers
+    <li> Resource centers</li>
     
-    Faculty list
+    <li>Faculty list</li>  
     
-    Campus map</ul>
+    <li>  Campus map</li></ul>
 
-Still need more information? No worries! Feel free to use our search bar below! 
+<h3>  Still need more information? No worries! Feel free to use our search bar below! </h3>
 
 <!-- insert search bar – as seen on page 168, you can use exact code --> 
 
@@ -67,6 +67,7 @@ If you join our mailing list, you will get exclusive information regarding upcom
     <p>Please enter your email address:</p>
     <input type="email" name="email" />
     <input type="submit" value="Submit" />
+    <button> Submit</button>
 </form>
 <!-- insert <button> tag as seen on page 162 – but don’t use an <img> tag as seen on the same page though, instead keep it simple and write it out like this: <button> Submit</button>  --> 
 
@@ -109,18 +110,16 @@ If you join our mailing list, you will get exclusive information regarding upcom
 
   <!--  insert a Drop Down List Box - you can use the exact code on page 157, just change the working from ipad, radio, computer to “Windows, MacOS, Linux” --> 
 
- 
-
 <h3> Add an image for your profile! </h3>
 <!--  insert image of self or  if you don't want to use a picture of yourself, use a generic image of a college student from “unsplash” and resize the image using height=”600” width=”600”  use similar code found on page 100--> 
 
- <img src="images 1.2/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" alt="Profile Pic Girl with bob haicut and glasses from Usplash">
+ <img src="images 1.2/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" alt="Profile Pic Girl with bob haicut and glasses from Usplash" height="400" width="600">
 
 <!--  add file input box – same code on page 159 works--> 
 
 <form action="http://www.example.com/upload/" method="post" >
-    <p>Upload your pictuer:</p>
-    <input type="file" name="user-picture"/> <br>
+    <p>Upload your picture:</p>
+    <input type="file" name="user-picture"/> <br/>
     <input type="submit" value="Upload" />
 </form>
 
@@ -138,7 +137,7 @@ If you join our mailing list, you will get exclusive information regarding upcom
 
 <!-- use the exact code from page 164 in your book – make sure to change the 3 titles to “First Name” “Last Name” and “Email” --> 
 
- 
+ <br>
 <form action="http://www.example.com/bookings/">
     <label for="username">Set a date when you can visit the campus! </label>
     <input type="date" name="visit" />
@@ -147,5 +146,6 @@ If you join our mailing list, you will get exclusive information regarding upcom
 
 
 <!--  use the exact code found on page 166 --> 
+<h4><a href="#top">Back to the Top</a></h4> 
 </body>
 </html>
